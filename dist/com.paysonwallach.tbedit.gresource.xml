@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/paysonwallach/tbedit">
+    <file alias="main.js" compressed="true">main.js</file>
+    <file alias="main.css" compressed="true">main.css</file>
+    <file alias="main.html" compressed="true">main.html</file>
+  </gresource>
+</gresources>
