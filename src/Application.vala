@@ -14,7 +14,8 @@ public class TBEdit.Application : Gtk.Application {
     public override void open (File[] files, string hint) {
         foreach (var file in files) {
             try {
-                var window = new TBEdit.Window (this, file);
+                var text_bundle = new TextBundle (file);
+                var window = new TBEdit.Window (this, text_bundle);
                 windows.append (window);
             } catch (Error e) {
                 warning (e.message);

@@ -38,6 +38,8 @@ add_project_arguments(
 
 executable(
   meson.project_name(),
+  'src/Controllers/TextBundleViewController.vala',
+  'src/Models/TextBundle.vala',
   'src/Application.vala',
   'src/Window.vala',
   as_resources,
